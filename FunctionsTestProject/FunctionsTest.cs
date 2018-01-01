@@ -34,17 +34,7 @@ namespace FunctionsTestProject
         public void CalculateNthFibonacciNumberTest()
         {
           // Fibo Algorithm
-            //F(0) = 0
-            //F(1) = 1
-            //F(2) = 1
-            //F(3) = 2
-            //F(4) = 3
-            //F(5) = 5
-            //F(6) = 8
-            //F(7) = 13
-            //F(8) = 21
-            //F(9) = 34
-            //F(10) = 55
+            
 
             // Arrange
             var oneOrZero = 1;
@@ -147,7 +137,7 @@ namespace FunctionsTestProject
         public void SelectPrimeNumbersTest()
         {
             //Plan: A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself
-              // High school hack, if number  is devisible by 2 and remain 1, OR if that number is 2, that is a prime number :)
+              // High school concept, if number  is devisible by 2 and remain 1, OR if that number is 2, that is a prime number :)
 
             // Arrange
             var numberList = new List<int>() { 1, 2,3,5,6, 7 ,8,11, 12, 13, 14, 15, 16, 17,18, 19,20,21,22,23,24, 29,31, 33};
